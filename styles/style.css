@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Monserrat, san-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.error_span {
+    color: red;
+}
+
+.succes_span {
+    color: green;
+}
+
+p {
+    margin: 10px;
+}
+
+a {
+    color: #7c9b8c;
+    font-weight: bold;
+}
+
+.error_p {
+    color: red;
+    font-weight: bold;
+}
